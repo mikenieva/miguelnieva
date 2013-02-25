@@ -1,4 +1,3 @@
-
 /*		global		*/
 .clear {clear:both;}
 h2 {font-family:'OstrichSansMedium'; color:#ffffff; font-size:34px; padding:0; margin:0; line-height:34px;}
@@ -14,7 +13,7 @@ img {border:none;}
 .xSquare_wrapper {height:643px; width:643px; position:relative; margin:-80px auto 0px;}
 .xSquare_image1 {position:absolute; bottom:0; right:0; height:321px; width:321px; overflow:hidden;}
 .big_image_text_wrapper {position:absolute; background-color:#000; filter: alpha(opacity=80); opacity:0.8; width:478px; height:226px; top:113px; left:-191px; margin-top:0; z-index: 5;}
-.xSquare .big_image_text_wrapper span {font-family:'PTSansRegular'; font-size:14px; line-height:14px; text-align:center;}
+.xSquare .big_image_text_wrapper span {font-family:'Arial'; font-size:14px; line-height:14px; text-align:center;}
 .big_image_text_wrapper h2 {font-size:28px; line-height:28px; text-align:center; margin:16px 0 6px 0;}
 .xSquare_image2 {position:absolute; bottom:0; left:0; height:160px; width:321px; overflow:hidden;background:url("../content/fondo.jpg"); background-repeat: repeat;}
 .xSquare_image3 {position:absolute; bottom:161px; left:161px; height:160px; width:160px; overflow:hidden;}
