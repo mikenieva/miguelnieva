@@ -147,6 +147,11 @@ border-width: thin;
 border-style: solid;
 }
 
+a.mail
+{
+	color: black;
+	font-size: 25px;
+}
 
 
 div.contenidofuente
