@@ -132,17 +132,135 @@ td {
     background: #f2f2f2;
 }
 
-img.badgec
+.selectors img
 {
-	width: 27px;
-border-radius: 32px;
-margin-bottom: 7px;
+	width: 50px;
+	border-radius: 32px;
+	margin: 0 8px 18px;
 }
 
-img.badgem
+
+img.badgeborder
 {
-	border-radius: 30px;
-margin-bottom: 7px;
-margin-left: 16px;
-width: 27px;
+border-color: rgb(221, 220, 220);
+border-width: thin;
+border-style: solid;
+}
+
+
+
+div.contenidofuente
+{
+	font-size:12pt;
+}
+div.separador
+{
+	border-top: solid thin #0080be;
+	padding: 30px 0;
+	width: 100%;
+}
+#libro .lectura table p
+{
+	color: rgb(60, 56, 56);
+}
+
+#libro .lectura .badgetitulo p
+{
+	font-size: 21px;
+}
+#libro .lectura .badgedescripcion p
+{
+	font-size: 16px;
+}
+#libro .lectura table img
+{
+	border-radius: 6px;
+	margin: 0 6px 0 0;
+	max-width: 25px;
+}
+#libro .lectura table img.notyet
+{
+	opacity: .5;
+}
+#libro .lectura table img.notyet:hover
+{
+	opacity: 1;
+}
+div.contenidofuente table thead
+{
+	background: #0080be;
+	color: white;
+}
+div.contenidofuente table thead td
+{
+	line-height: 22px;
+	padding: 10px 0px 10px 15px;
+	text-align: left;
+	vertical-align: top;
+	width: 15%;
+}
+div.contenidofuente table td, div.contenidofuente table th 
+{
+	padding: 10px;
+}
+div.contenidofuente table tbody td
+{
+	border-bottom: 1px solid #ddd	
+}
+.tooltip 
+{
+	-webkit-border-radius: 5px;
+	background-color: #ccc !important;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	color: #fff;
+	display: none;
+	font-size: 12pt;
+	height: auto;
+	padding: 5px;
+	position: absolute; top: -200px;
+	right: 40px;
+	width: 260px;
+	z-index: 1;
+}
+div.tooltip-wrapper
+{
+	display:inline-block;
+	position: relative;
+}
+div.badgetitulo 
+{
+	margin-bottom: 14px;
+}
+div.badgeimagen
+{
+	background: white;
+	border-radius: 6px;
+	display: inline-block;
+	margin: 2px 8px 0 9px !important;
+	padding: 6px 3px 0 9px !important;
+	vertical-align: top;
+}
+div.badgenombre
+{
+	display: inline-block;
+	height: auto; 
+	vertical-align: bottom;
+	width: 185px;
+}
+#libro .lectura div.badgenombre p
+{
+	display: inline-block; 
+	font-size: 21px;
+	margin: 0px 0 0 5px; 
+	vertical-align: bottom;
+}
+div.badgedescripcion
+{
+	margin: 0 5% 0 5%;
+	width: 232px; 
+}
+div.badgedescripcion p
+{
+	font-size: 14px;
 }
