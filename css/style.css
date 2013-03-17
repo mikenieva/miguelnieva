@@ -50,7 +50,7 @@ a img {
 .selectors {
 	text-align:center;
 	margin:20px auto;
-	border-bottom:1px solid #ef4939;
+	border-bottom: 1px solid rgb(189, 187, 166);
 	max-width:960px;
 }
 .selectors a {
@@ -132,3 +132,17 @@ td {
     background: #f2f2f2;
 }
 
+img.badgec
+{
+	width: 27px;
+border-radius: 32px;
+margin-bottom: 7px;
+}
+
+img.badgem
+{
+	border-radius: 30px;
+margin-bottom: 7px;
+margin-left: 16px;
+width: 27px;
+}
