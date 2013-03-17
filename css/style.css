@@ -1,73 +1,78 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 
+{
 	font-family:'OstrichSansMedium';
 	font-weight: normal;
 	color:#ef4939;
 	margin:10px 0;
 }
-h1 {
+h1 
+{
 	font-size:38px;
 }
-h2 {
+h2 
+{
 	font-size:30px;
 }
-h3 {
+h3 
+{
 	font-size:22px;
 }
-h4 {
+h4 
+{
 	font-size:20px;
 }
-body {
+body 
+{
 	background:#fff url(../images/background.png) repeat;
 	font-family: 'PTSansRegular', Sans-Serif;
-	font-size:14px;
+	font-size: 14px;
 	margin:0;
 	text-align:center;
 }
-a {
+a 
+{
 	text-decoration:none;
 	color:#1a86ac;
 }
 
-a img {
+a img 
+{
 	border:0;
 }
-.clear {
+.clear 
+{
 	clear:both;
 }
-.half_page {
+.half_page 
+{
 	width:460px;
 	float:left;
 }
 
-.half_page.first {
+.half_page.first 
+{
 	margin-right:20px;
 }
 
-.selectors {
+.selectors 
+{
 	text-align:center;
 	margin:20px auto;
 	border-bottom: 1px solid rgb(189, 187, 166);
 	max-width:960px;
 }
 .selectors a {
-	font-family:'OstrichSansMedium';
+	font-family: 'OstrichSansMedium';
 	font-weight: normal;
 	text-decoration:none;
-	color:#ef4939;
+	color: #ef4939;
 	font-size:34px;
-	margin:10px;
-}
-.selectors a.active,
-.selectors a:hover {
-	color:#313131;
 }
 
-
-/* ------------------------ help --------------------------------- */
+/* ------------------------ Extras --------------------------------- */
 
 .page_wrapper {
 	margin:0 auto; 
@@ -132,6 +137,8 @@ td {
     background: #f2f2f2;
 }
 
+/* Selectores y Badges */
+
 .selectors img
 {
 	width: 50px;
@@ -154,98 +161,102 @@ a.mail
 }
 
 
-div.contenidofuente
-{
-	font-size:12pt;
-}
-div.separador
-{
-	border-top: solid thin #0080be;
-	padding: 30px 0;
-	width: 100%;
-}
-#libro .lectura table p
-{
-	color: rgb(60, 56, 56);
-}
 
-#libro .lectura .badgetitulo p
+.badgetitulo p
 {
 	font-size: 21px;
 }
-#libro .lectura .badgedescripcion p
+.badgedescripcion p
 {
 	font-size: 16px;
 }
-#libro .lectura table img
-{
-	border-radius: 6px;
-	margin: 0 6px 0 0;
-	max-width: 25px;
-}
-#libro .lectura table img.notyet
-{
-	opacity: .5;
-}
-#libro .lectura table img.notyet:hover
-{
-	opacity: 1;
-}
-div.contenidofuente table thead
-{
-	background: #0080be;
-	color: white;
-}
-div.contenidofuente table thead td
-{
-	line-height: 22px;
-	padding: 10px 0px 10px 15px;
-	text-align: left;
-	vertical-align: top;
-	width: 15%;
-}
-div.contenidofuente table td, div.contenidofuente table th 
-{
-	padding: 10px;
-}
-div.contenidofuente table tbody td
-{
-	border-bottom: 1px solid #ddd	
-}
+
+
 .tooltip 
 {
 	-webkit-border-radius: 5px;
-	background-color: #ccc !important;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-	color: #fff;
-	display: none;
+background-color: rgb(243, 237, 235);
+border-radius: 10px;
+border: 1px solid #ccc;
+display: none;
+
 	font-size: 12pt;
-	height: auto;
-	padding: 5px;
-	position: absolute; top: -200px;
-	right: 40px;
-	width: 260px;
-	z-index: 1;
+height: auto;
+padding: 5px;
+position: absolute;
+
+	top: -270px;
+right: -95px;
+
+	width: 246px;
+z-index: 1;
 }
+
+
+
 div.tooltip-wrapper
 {
 	display:inline-block;
 	position: relative;
 }
+
+a.tooltip-trigger
+{
+	 opacity: 1;
+  	-o-transition:opacity 2s ease-out, background 2s ease-in;
+  	-ms-transition:opacity 2s ease-out, background 2s ease-in;
+  	-moz-transition:opacity 2s ease-out, background 2s ease-in;
+  	-webkit-transition:opacity 2s ease-out, background 2s ease-in;
+  	transition:opacity 2s ease-out, background 2s ease-in;
+}
+
+a.tooltip-trigger:hover
+{
+	opacity:.3;
+}
+
+
+div.selectors a img, div.selectors img
+{
+
+-webkit-transition: -webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+-webkit-transition-property: -webkit-transform, opacity, background, width, height, font-size;
+-webkit-transition-duration: 1s, 1s, 1s, 1s, 1s, 1s;
+-webkit-transition-timing-function: initial, initial, initial, initial, initial, initial;
+-webkit-transition-delay: initial, initial, initial, initial, initial, initial;
+
+
+-o-transition: -o-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+-o-transition-property: -o-transform, opacity, background, width, height, font-size;
+-o-transition-duration: 1s, 1s, 1s, 1s, 1s, 1s;
+-o-transition-timing-function: initial, initial, initial, initial, initial, initial;
+-o-transition-delay: initial, initial, initial, initial, initial, initial;
+
+
+-moz-transition: 1s;
+-moz-transition-pro|perty: -moz-transform, opacity, background, width, height, font-size;
+-moz-transition-duration: 1s, 1s, 1s, 1s, 1s, 1s;
+-moz-transition-timing-function: initial, initial, initial, initial, initial, initial;
+-moz-transition-delay: initial, initial, initial, initial, initial, initial;
+
+}
+div.selectors a img:hover, div.selectors img:hover
+{
+	-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+opacity: 1;
+	
+}
+
+
+
 div.badgetitulo 
 {
 	margin-bottom: 14px;
 }
-div.badgeimagen
-{
-	background: white;
-	border-radius: 6px;
-	display: inline-block;
-	margin: 2px 8px 0 9px !important;
-	padding: 6px 3px 0 9px !important;
-	vertical-align: top;
-}
+
 div.badgenombre
 {
 	display: inline-block;
@@ -253,19 +264,33 @@ div.badgenombre
 	vertical-align: bottom;
 	width: 185px;
 }
-#libro .lectura div.badgenombre p
+div.badgenombre p
 {
 	display: inline-block; 
-	font-size: 21px;
+	font-size: 30px;
 	margin: 0px 0 0 5px; 
 	vertical-align: bottom;
+	color: #ef4939;
+	font-family: 'OstrichSansMedium';
 }
 div.badgedescripcion
 {
 	margin: 0 5% 0 5%;
-	width: 232px; 
+	width: 230px;
 }
+
 div.badgedescripcion p
 {
-	font-size: 14px;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
+	font-family: 'OstrichSansMedium';
 }
+
+
+/*It's 3, because we have a <br> between both <p>'s' */
+div.badgenombre p:nth-child(3)
+{
+	color:black;
+	font-size: 18px;
+}
+
