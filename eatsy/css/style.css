@@ -407,8 +407,8 @@ body.chilis
 
     div.app
     {
-     margin: 0 20%;
-width: 60%;
+      margin: 0 20%;
+      width: 60%;
 
     }
 
@@ -426,19 +426,19 @@ div.app a
 
     div.logotipo
     {
-      margin: 0 140px;
-      width: 170px;
+      margin: 0 37.8%;
+      width: 23%;
     
-      margin-top: 80px;
+      margin-top: 15%;
 }
 
 
 div.medium div.bloques
 {
-  margin: 0 120px;
-  width: 215px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 0 37%;
+  width: 22.9%;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 div.medium div.bloques div.bloque
@@ -446,7 +446,7 @@ div.medium div.bloques div.bloque
   background: #383839;
   border-radius: 5px;
   height: 35px;
-  margin: 32px 0;
+  margin: 10% 0;
 }
 
 div.medium div.bloques div.bloque:hover, div.medium div.bloques div.bloque:focus
@@ -481,8 +481,8 @@ div.avance
 div.separador
 {
   border-top:solid thin white;
-  width: 378px;
-  margin: 0 38px;
+  width: 369px;
+  margin: 0 185px;
 }
 
 
