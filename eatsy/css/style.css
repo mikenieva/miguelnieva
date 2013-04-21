@@ -426,7 +426,7 @@ div.app a
 
     div.logotipo
     {
-      margin: 0 220px;
+      margin: 0 226px;
       width: 170px;
     
       margin-top: 110px;
@@ -446,7 +446,8 @@ div.medium div.bloques div.bloque
   background: #383839;
   border-radius: 5px;
   height: 35px;
-  margin: 11px;
+  margin: 13px 7px;
+  width: 300px;
 }
 
 div.medium div.bloques div.bloque:hover, div.medium div.bloques div.bloque:focus
