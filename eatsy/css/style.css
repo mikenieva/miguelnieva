@@ -426,19 +426,19 @@ div.app a
 
     div.logotipo
     {
-      margin: 0 37.8%;
-      width: 23%;
+      margin: 0 200px;
+      width: 170px;
     
-      margin-top: 15%;
+      margin-top: 110px;
 }
 
 
 div.medium div.bloques
 {
-  margin: 0 37%;
-  width: 22.9%;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin: 0 155px;
+  width: 255px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 div.medium div.bloques div.bloque
@@ -446,7 +446,7 @@ div.medium div.bloques div.bloque
   background: #383839;
   border-radius: 5px;
   height: 35px;
-  margin: 10% 0;
+  margin: 11px;
 }
 
 div.medium div.bloques div.bloque:hover, div.medium div.bloques div.bloque:focus
@@ -481,8 +481,8 @@ div.avance
 div.separador
 {
   border-top:solid thin white;
-  width: 369px;
-  margin: 0 185px;
+  width: 408px;
+  margin: 0 78px;
 }
 
 
