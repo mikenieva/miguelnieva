@@ -426,7 +426,7 @@ div.app a
 
     div.logotipo
     {
-      margin: 0 200px;
+      margin: 0 220px;
       width: 170px;
     
       margin-top: 110px;
@@ -436,7 +436,7 @@ div.app a
 div.medium div.bloques
 {
   margin: 0 155px;
-  width: 255px;
+  width: 319px;
   margin-top: 45px;
   margin-bottom: 45px;
 }
@@ -473,16 +473,16 @@ div.medium div.bloques div.bloque p
 
 div.avance
 {
-  margin: 0 48%;
-  width: 2%;
-  margin-top: 5%;
+  margin: 0 302px;
+  width: 17px;
+  margin-top: 30px;
 }
 
 div.separador
 {
   border-top:solid thin white;
-  width: 408px;
-  margin: 0 78px;
+  width: 400px;
+  margin: 0 115px;
 }
 
 
