@@ -388,24 +388,21 @@ table {
 
    body
    {
-        background: #ec853e;
-
-
-background: -moz-linear-gradient(left,  #ec853e 0%, #f6ec7d 40%, #f6ec7d 60%, #e96f35 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ec853e), color-stop(40%,#f6ec7d), color-stop(60%,#f6ec7d), color-stop(100%,#e96f35));
-background: -webkit-linear-gradient(left,  #ec853e 0%,#f6ec7d 40%,#f6ec7d 60%,#e96f35 100%);
-background: -o-linear-gradient(left,  #ec853e 0%,#f6ec7d 40%,#f6ec7d 60%,#e96f35 100%);
-background: -ms-linear-gradient(left,  #ec853e 0%,#f6ec7d 40%,#f6ec7d 60%,#e96f35 100%);
+        background: rgb(238, 102, 8);
+background: -moz-linear-gradient(left,  rgb(238, 102, 8) 0%, rgb(228, 179, 52) 40%, rgb(228, 179, 52) 60%, #e96f35 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(238, 102, 8)), color-stop(40%,rgb(228, 179, 52)), color-stop(60%,rgb(228, 179, 52)), color-stop(100%,#e96f35));
+background: -webkit-linear-gradient(left,  rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,rgb(228, 179, 52) 60%,#e96f35 100%);
+background: -o-linear-gradient(left,  rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,rgb(228, 179, 52) 60%,#e96f35 100%);
+background: -ms-linear-gradient(left,  rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,rgb(228, 179, 52) 60%,rgb(238, 102, 8) 100%);
 background: linear-gradient(to right, rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,rgb(228, 179, 52) 60%,rgb(238, 102, 8) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec853e', endColorstr='#e96f35',GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(238, 102, 8)', endColorstr='#e96f35',GradientType=1 );
 
     }
 
 body.chilis
 {
   background: rgb(245, 65, 65) 40%;
-        
-
+      
 }
 
     div.app
@@ -429,7 +426,7 @@ div.app a
 
     div.logotipo
     {
-      margin: 0 37.5%;
+      margin: 0 37.8%;
       width: 23%;
     
       margin-top: 15%;
@@ -484,20 +481,20 @@ div.avance
 div.separador
 {
   border-top:solid thin white;
-  width: 60%;
-  margin: 0 20%;
+  width: 50%;
+  margin: 0 25%;
 }
 
 
 div.socialmedia
 {
-  width: 40%;
-  margin: 4% 30.3%;
+ width: 45%;
+margin: 4% 28%;
 }
 
 div.socialmedia img
 {
-  margin: 0 5%;
+  margin: 0 7%;
 }
 
 div.formulario
@@ -532,7 +529,7 @@ display: inline-block;
 
 div.crearcuenta
 {
-  margin: 3.5% 39% 0;
+  margin: 3.5% 39.4% 0;
 }
 
 div.crearcuenta img:hover
