@@ -437,8 +437,8 @@ div.medium div.bloques
 {
   margin: 0 155px;
   width: 319px;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 div.medium div.bloques div.bloque
@@ -482,15 +482,15 @@ div.avance
 div.separador
 {
   border-top:solid thin white;
-  width: 400px;
-  margin: 0 115px;
+  width: 460px;
+  margin: 0 81px;
 }
 
 
 div.socialmedia
 {
- width: 45%;
-margin: 4% 28%;
+ width: 400px;
+margin: 55px 155px
 }
 
 div.socialmedia img
@@ -500,15 +500,15 @@ div.socialmedia img
 
 div.formulario
 { 
-    margin: 0 20%;
+    margin: 0 82px;
 
 }
 
 div.formulario form
 {
-  width: 262px;
-  margin: 0 100px;
-  margin-top: 35px;
+width: 262px;
+margin: 0 100px;
+margin-top: 35px;
 }
 
 div.formulario form input
@@ -530,8 +530,8 @@ display: inline-block;
 
 div.crearcuenta
 {
-  margin: 50px 305px 0px;
-  width: 162px;
+  margin: 30px 232px 0px;
+width: 162px;
 }
 
 div.crearcuenta img:hover
