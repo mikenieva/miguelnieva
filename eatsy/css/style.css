@@ -490,8 +490,8 @@ div.separador
 div.socialmedia
 {
  width: 400px;
-margin: 55px 155px
-}
+
+ margin: 30px 155px;}
 
 div.socialmedia img
 {
@@ -518,7 +518,8 @@ border-radius: 10px;
 color: white;
 padding-left: 10px;
 box-sizing: border-box;
-height: 30px;
+
+  height: 25px;
 padding: 10px 10px 10px 14px;
 width: 260px;
 outline: 0;
