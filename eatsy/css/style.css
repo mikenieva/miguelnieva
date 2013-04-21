@@ -421,7 +421,7 @@ div.app a
     {
     height: auto;
     
-    margin-bottom: 6%;
+    margin-bottom: 50px;
 }
 
     div.logotipo
@@ -481,8 +481,8 @@ div.avance
 div.separador
 {
   border-top:solid thin white;
-  width: 50%;
-  margin: 0 25%;
+  width: 369px;
+  margin: 0 185px;
 }
 
 
@@ -494,7 +494,7 @@ margin: 4% 28%;
 
 div.socialmedia img
 {
-  margin: 0 7%;
+  margin: 0 22px;
 }
 
 div.formulario
@@ -505,9 +505,9 @@ div.formulario
 
 div.formulario form
 {
-  width: 60%;
-  margin: 0 20%;
-  margin-top: 10%;
+  width: 262px;
+  margin: 0 100px;
+  margin-top: 35px;
 }
 
 div.formulario form input
@@ -529,7 +529,8 @@ display: inline-block;
 
 div.crearcuenta
 {
-  margin: 3.5% 39.4% 0;
+  margin: 50px 305px 0px;
+  width: 162px;
 }
 
 div.crearcuenta img:hover
