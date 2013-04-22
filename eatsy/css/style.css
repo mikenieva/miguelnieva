@@ -432,6 +432,16 @@ div.app a
       margin-top: 110px;
 }
 
+div.logotipogracias
+
+{
+   margin: 0 200px;
+      
+   width: 192px;
+    
+      margin-top: 110px; 
+}
+
 
 div.medium div.bloques
 {
@@ -543,7 +553,22 @@ div.crearcuenta img:hover
 div.mensaje
 {
   text-align: center;
-  margin: 0 25%;
+  margin: 0 145px;
+}
+
+p.white
+{
+  color: white;
+}
+
+p.fontgrande
+{
+  font-size: 20px;
+}
+
+p.fontchico
+{
+  font-size: 16px;
 }
 
 p.upper
@@ -553,7 +578,7 @@ p.upper
 
 div.empezar
 {
-  margin: 25.5% 39% 0;
+  margin: 100px 233px 0;
 }
 
 div.restaurante
