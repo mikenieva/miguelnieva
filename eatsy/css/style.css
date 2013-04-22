@@ -583,7 +583,14 @@ div.empezar
 
 div.restaurante
 {
-  width: 24%;
+  width: 143px;
+ display: inline-block; 
+  text-align: center;
+}
+
+div.restaurante img
+{
+  width: 100px;
  display: inline-block; 
 }
 
@@ -594,7 +601,8 @@ div.restaurante:hover
 
 div.restaurantes
 {
-  margin: 15% 23% 0;
+  margin: 100px 13px 0;
+  width: 585px;
 }
 
 p.center
