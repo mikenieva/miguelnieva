@@ -672,7 +672,7 @@ position: absolute;
 max-width: none;
 overflow: hidden;
 top: 110px;
-bottom: 10px;
+bottom: 0px;
 }
 
 div.lista
@@ -680,7 +680,9 @@ div.lista
 
 display: inline-block;
 float: left;
-height: 90%;
+
+
+height: 91%;
 overflow-x: hidden;
 position: relative;
 vertical-align: top;
