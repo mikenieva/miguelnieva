@@ -683,11 +683,15 @@ display: inline-block;
 float: left;
 height: 100%;
 overflow-x: hidden;
-overflow-y: auto;
+
 position: relative;
 vertical-align: top;
 width: 33.3%;
 
+}
+
+div.lista::-webkit-scrollbar { 
+    display: none; 
 }
 
 div.barra
