@@ -401,7 +401,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(238, 102,
 
 body.chilis
 {
-  background: rgb(245, 65, 65) 40%;
+  background: rgb(201, 28, 28) 40%;
       
 }
 
@@ -419,24 +419,23 @@ div.app a
     div.top
     {
     height: auto;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
 }
 
     div.logotipo
     {
-      margin: 0 32%;
-      margin-top: 10%;
+      margin: 7% 38.5% 0;
 }
 
 div.top div.logotipo img
 {
-margin: 0 15%;
+margin: 0 19%;
 }
 
 div.logotipogracias
 
 {
-   margin: 10% 37%;
+   margin: 10% 41%;
       
     
        
@@ -453,8 +452,8 @@ div.medium div.bloques div.bloque
   background: #383839;
   border-radius: 5px;
   height: 2.1em;
-  margin: 0 25% 4%;
-  width: 50%;
+  margin: 0 32.5% 4%;
+  width: 35%;
 }
 
 div.medium div.bloques div.bloque:hover, div.medium div.bloques div.bloque:focus
@@ -488,15 +487,16 @@ div.avance
 div.separador
 {
   border-top:solid thin white;
+  margin: 0 23%;
 }
 
 
 div.socialmedia
 {
 
- margin: 3.5% 20%;
+ margin: 2.5% 35%;
 
- width: 90%;
+ width: 35%;
 
 }
 
@@ -507,7 +507,7 @@ div.socialmedia img
 
 div.formulario
 { 
-    margin: 0 18%;
+    margin: 0 30%;
 
 }
 
@@ -536,8 +536,9 @@ display: inline-block;
 
 div.crearcuenta
 {
-  margin: 5.5% 40% 0%;
+  margin: 5.5% 44.5% 0%;
 
+  width: 15%;
 }
 
 div.crearcuenta img:hover
@@ -573,12 +574,12 @@ p.upper
 
 div.empezar
 {
-  margin: 14% 39% 0%;
+  margin: 14% 44% 0%;
 }
 
 div.restaurante
 {
-  width: 19%;
+  width: 24%;
  display: inline-block; 
   text-align: center;
   height: 14em;
@@ -612,7 +613,7 @@ div.restaurante div.nombre a
 
 div.restaurantes
 {
-  margin: 0% 0%;
+  margin: 0% 23%;
 }
 
 p.center
@@ -622,24 +623,42 @@ text-align: center;
 
 header.principal
 {
-    width: 100%; margin-top: 5%;
+    width: 100%; 
+    margin-top: 2%;
 
+    margin-bottom: 3%;
 }
 
 div.marca
 {
     display: inline-block;
+    text-align: center;
+    width: 24%;
+    vertical-align: bottom;
+}
 
-    width: 40%;
-    vertical-align: top;
+div.busqueda
+{
+  width: 34%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
 div.busqueda input
 {
   border-radius: 10px;
+  width: 65%;
 }
 
+div.botones
+{
+display: inline-block;
+width: 40%;
+text-align: center;
+vertical-align: middle;
+}
 
 /* Chilis.html */
 
@@ -650,66 +669,80 @@ div.busqueda input
 div.menu
 {
 width: 100%;
+position: absolute;
+max-width: none;
+
 }
 
 div.lista
 {
 
-width: 32%;
 display: inline-block;
+float: left;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+position: relative;
 vertical-align: top;
-overflow: hidden;
+width: 33.3%;
 
 }
 
 div.barra
 {
-  margin-top: 2em;
 width: 100%;
-border-top: solid thin black;
 
+  border-top: solid thin rgb(255, 255, 255);
+
+  height: 2em;
+  
+background: rgb(228, 17, 17);
 }
 
 div.tipo
 {
 width: 100%;  
-display: inline-block;
 text-align: center;
 color: white;
-background: yellow;
+padding: 2% 0%;
 }
 
 div.alimento
 {
   width: 100%;
   display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
 }
 
 div.foto
 {
-  height: 8.8em;
+  height: 12.8em;
 overflow: hidden;
 position: relative;
+  background: white;
 }
 
 div.alimento div.foto img
 {
- max-width: 100%; 
+ width: 100%;
+ 
 }
 
 
 div.alimento div.foto div.descripcion
 {
 position: absolute;
-background-color: #000;
-background: rgba(7, 92, 150, 0.71);
+background-color: rgb(255, 255, 255);
+background: rgba(219, 10, 10, 0.71);
 bottom: 0;
 color: #FFF;
 height: auto;
 opacity: .9;
 overflow: hidden;
-padding: 5px;
-width: 100%;
+padding: 18px 5px 15px;
+width: 98%;
 }
 }
 
