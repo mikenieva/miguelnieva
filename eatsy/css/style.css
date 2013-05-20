@@ -624,9 +624,8 @@ text-align: center;
 header.principal
 {
     width: 100%; 
-    margin-top: 2%;
+    margin-top: 1%;
 
-    margin-bottom: 3%;
 }
 
 div.marca
@@ -671,9 +670,9 @@ div.menu
 width: 100%;
 position: absolute;
 max-width: none;
-
-bottom: 5px;
-top: 160px;
+overflow: hidden;
+top: 110px;
+bottom: 10px;
 }
 
 div.lista
@@ -703,6 +702,7 @@ width: 100%;
 height: 3em;
   
 background: rgb(228, 17, 17);
+display: inline-block;
 }
 
 div.tipo
@@ -712,7 +712,7 @@ text-align: center;
 color: white;
 display: inline-block;
 float:left;
-padding: 1.2% 0%;
+padding: 1.8% 0%;
 }
 
 div.alimento
@@ -727,10 +727,12 @@ div.alimento
 div.foto
 {
   /*height: 14.8em;*/
-  height: 9.8em;
+  height: 8.2em;
 overflow: hidden;
 position: relative;
   background: white;
+
+  margin-bottom: 0px;
 }
 
 div.alimento div.foto img
