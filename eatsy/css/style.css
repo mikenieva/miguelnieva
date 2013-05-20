@@ -724,7 +724,8 @@ div.alimento
 
 div.foto
 {
-  height: 14.8em;
+  /*height: 14.8em;*/
+  height: 9.8em;
 overflow: hidden;
 position: relative;
   background: white;
