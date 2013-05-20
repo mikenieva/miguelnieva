@@ -396,7 +396,7 @@ background: -o-linear-gradient(left,  rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,
 background: -ms-linear-gradient(left,  rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,rgb(228, 179, 52) 60%,rgb(238, 102, 8) 100%);
 background: linear-gradient(to right, rgb(238, 102, 8) 0%,rgb(228, 179, 52) 40%,rgb(228, 179, 52) 60%,rgb(238, 102, 8) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(238, 102, 8)', endColorstr='#e96f35',GradientType=1 );
-
+height: 100%;
     }
 
 body.chilis
@@ -672,6 +672,8 @@ width: 100%;
 position: absolute;
 max-width: none;
 
+bottom: 5px;
+top: 160px;
 }
 
 div.lista
@@ -679,7 +681,7 @@ div.lista
 
 display: inline-block;
 float: left;
-height: 540px;
+height: 100%;
 overflow-x: hidden;
 overflow-y: auto;
 position: relative;
