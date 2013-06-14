@@ -684,20 +684,21 @@ header.principal
 div.marca
 {
     display: inline-block;
-    text-align: center;
-    width: 110px;
-    vertical-align: bottom;
-    margin-top: 1%;
+text-align: center;
+width: 110px;
+vertical-align: bottom;
+margin-top: 1%;
 }
 div.marca img.loguitos{
-  width: 92px;
+
+width: 92px;
 }
 
 div.restaurantito
 {
   display: inline-block;
-  color: white;
-  margin-bottom: 3.5%;
+color: white;
+margin-bottom: 3.5%;
 }
 
 div.restaurante{
@@ -724,8 +725,7 @@ div.botoncuenta
 {
 display: inline-block;
 margin: 1% 1% 0% 0%;
-vertical-align: bottom;
-text-align: right;
+margin-top: 47px;
 float: right;
 }
 
@@ -819,7 +819,7 @@ position: relative;
 
 div.alimento div.foto img
 {
- width: 160%; 
+ width: 100%; 
 }
 
 
@@ -850,24 +850,23 @@ div.alimento div.foto div.descripcion div.precio
   float: right;
   margin-right: 12px;
 }
-body.alimento img.ensalada
+body.alimento img.fotoepica
 {
   width: 100%;position: absolute;
 }
 
-body.alimento img.ensaladagrande
-{
-  position: fixed;z-index: 1;width: 35%;right: 9%;top: 10%;
-}
 
-body.alimento img.agregargrande
+body.alimento img.cuadrocomida
 {
-  position: fixed;
+position: fixed;
 z-index: 1;
 width: 28%;
-right: 14.4%;
-top: 52%;
+right: 7.4%;
+top: 7%;
 }
+
+
+
 
 
 body.alimento img.facegrande
@@ -1327,14 +1326,24 @@ div.separadorsucursal
 
 
 
-
-
-
-
     
 
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+@media only screen and (max-width : 1024px) {
+
+div.alimento div.foto img.{
+width: 193%;
+}
+
+
+body.alimento a img.cuadrocomida {
+position: fixed;
+z-index: 1;
+width: 29.5%;
+right: 12.4%;
+top: 7%;
+}
+
 
 div.top 
 {
@@ -1493,23 +1502,14 @@ body.alimento
 height: 100%; width: 100%; background: white;
 }
 
-body.alimento img.ensalada
+body.alimento img.fotoepica
 {
   width: 100%;position: absolute;
 }
 
-body.alimento img.ensaladagrande
+body.alimento img.cuadrocomida
 {
   position: fixed;z-index: 1;width: 22%;right: 9%;top: 10%;
-}
-
-body.alimento a img.agregargrande
-{
-  position: fixed;
-z-index: 1;
-width: 18.5%;
-right: 12.4%;
-top: 58%;
 }
 
 body.alimento img.facegrande
