@@ -685,15 +685,12 @@ div.marca
 {
     display: inline-block;
     text-align: center;
-    width: 5%;
+    width: 110px;
     vertical-align: bottom;
-    margin-left: 3%;
     margin-top: 1%;
 }
 div.marca img.loguitos{
   width: 92px;
-  margin-left: -56%;
-  margin-top: 5%;
 }
 
 div.restaurantito
@@ -727,6 +724,8 @@ div.botoncuenta
 {
 display: inline-block;
 margin: 1% 1% 0% 0%;
+vertical-align: bottom;
+text-align: right;
 float: right;
 }
 
