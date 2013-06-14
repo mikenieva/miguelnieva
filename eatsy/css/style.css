@@ -813,15 +813,14 @@ div.foto
   height: 12.2em;
 overflow: hidden;
 position: relative;
-  background: white;
+  background: rgba(5, 5, 5, .9);
 
   margin-bottom: 0px;
 }
 
 div.alimento div.foto img
 {
- width: 160%;
- 
+ width: 160%; 
 }
 
 
@@ -829,7 +828,7 @@ div.alimento div.foto div.descripcion
 {
 position: absolute;
 background-color: rgb(35, 31, 32);
-background: rgba(35, 31, 32, 0.80);
+background: rgba(5, 5, 5, .9);
 bottom: 0;
 color: #FFF;
 height:;
